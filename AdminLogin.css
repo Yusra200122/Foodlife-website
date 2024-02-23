@@ -1,0 +1,81 @@
+body {font-family: 'Raleway';
+    background: url(dominik-martin-JYFmYif4n70-unsplash.jpg) no-repeat center fixed; 
+      background-size: cover;
+      color: black; 
+    }
+    
+    h1{
+      text-align: center;
+        font-family: 'Raleway';
+       font-size: 100px;
+       padding-top:20px;
+      text-shadow: 2px 2px 8px white;
+      }
+      
+    .login-form {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    
+    .login-form input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    .login-form button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #008040;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+       font-family:'Raleway';
+    }
+    
+    .login-form button[type="submit"]:hover {
+      background-color: #00e673;
+    }
+    
+    .login-form p {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    
+    .login-form p a {
+      color: white;
+      text-decoration: none;
+    }
+    
+      h3{
+    text-align: center;
+      font-family: 'Raleway';
+     font-size: 40px;
+      text-shadow: 2px 2px 8px white; 
+    }
+    

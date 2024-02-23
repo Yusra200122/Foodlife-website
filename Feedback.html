@@ -1,0 +1,92 @@
+<?php
+include 'action.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PZ5L2VXVG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PZ5L2VXVG');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" type="text/css" href="Feedback.css">
+ 
+	<link href='https://fonts.googleapis.com/css?family=Sansita' rel='stylesheet'>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <h1><b>"Your feedback matters to us! If you have a moment, please leave a review for your recent order. We value your opinion and want to make sure we're meeting your expectations. Thank you for choosing us!"</b></h1>
+<h2><u>Welcome to Digi-Food Life!</u></h2>
+<div class="container">
+  <form action="Feedback.php" method="post">
+
+
+    <label for="orderid">Order ID</label>
+    <input type="text" id="orderid" name="orderid" >
+
+    <label for="feedbackid">Feedback ID</label>
+    <input type="text" id="feedbackid" name="feedbackid" >
+   
+    <label for="Feedbackdate">Feedback Date</label><br><br>
+    <input type="date" id="Feedbackdate" name="Feedbackdate">
+<br>
+<br>
+    <label for="FeedbackText">Is there anything that you think could be improved about the menu or the food options?</label><br>
+    <textarea id="subject" name="FeedbackText" placeholder="Write something.." style="height:200px"></textarea>
+
+    <h9> How satisfied were you with the variety of options on the menu?</h9><br><br>
+    <label>
+      <input type="radio" name="rating" id="rating_verysatisfied" value="verysatisfied" />
+       <label for="rating_verysatisfied">Very Satisfied</label>
+     </label><br>
+     <label>
+      <input type="radio" name="rating" id="rating_satisfied" value="satisfied" />
+       <label for="rating_satisfied"> Satisfied</label>
+     </label><br>
+     <label>
+      <input type="radio" name="rating" id="rating_neutral" value="neutral" />
+       <label for="rating_neutral">Neutral</label>
+     </label><br>
+      <input type="radio" name="rating" id="rating_dissatisfied" value="dissatisfied" />
+       <label for="rating_dissatisfied">Dissatisfied</label>
+     </label><br>
+      <input type="radio" name="rating" id="rating_verydissatisfied" value="verydissatisfied" />
+       <label for="rating_verydissatisfied">Very Dissatisfied</label>
+     </label><br><br>
+      
+
+        <button type="submit">Register</button>
+  </form>
+</div>
+</body>
+</html>

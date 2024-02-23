@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sansita",sans-serif;
+  }
+  body{
+    height: 100vh;
+    width: 100%;
+    background: url(fathul-abrar-T-qI_MI2EMA-unsplash.jpg) no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  .box{
+    max-width: 500px;
+    width: 100%;
+    background:#f4511e;
+    height: 80px;  
+  }
+  .box .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 50px;
+  background: #f4511e;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  }
+  #check:checked ~ .search-box{
+    max-width: 380px;
+  }
+  
+  .search-box  input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background: #fff;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 18px;
+  
+  }
+  .search-box .icon{
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    background: #f4511e;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+     border-radius: 0 25px 25px 0 ;
+  }
+  h1{
+    position: absolute;
+    top: 34%;
+    font-size: 60px;
+    font-family: "Sansita",sans-serif;
+    
+    text-shadow: 2px 2px 8px white;
+  }
+  .top-left{
+     position: absolute;
+    top: 35px;
+    right: 40px;
+    font-size: 18px;
+    text-shadow: 2px 2px 8px #000000;
+  }
+  button{
+    width: 110px;
+    height: 45px;
+     background-color: black;
+     font-family: "Sansita",sans-serif;
+      color: white;
+      font-size: 18px;
+  
+  button:hover {
+    opacity: 0.8;
+  
+  }
+  
